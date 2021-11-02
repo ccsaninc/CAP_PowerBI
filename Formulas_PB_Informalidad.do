@@ -5,7 +5,6 @@ D_Año_Infor_PocO = YEAR('FI_Data_Ind_Infor (Poc_Ocu)'[Fecha_ID])
 
 *------
 
-
 D_AñoP-1_Infor_PocO = CALCULATE(
                 MIN('FI_Data_Ind_Infor (Poc_Ocu)'[D_Año_Infor_PocO]),DATEADD(Calendario[Fecha_ID],-1,YEAR)
 )
