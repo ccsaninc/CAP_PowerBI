@@ -1,3 +1,8 @@
+*------ definicion de informalidad -------*
+
+Def_Informalidad = IF(OR(G_F_Informalidad[Cod_Informalidad] = "For_DANE_0", G_F_Informalidad[Cod_Informalidad] = "Inf_DANE_1"), "Enfoque Empresarial (PREALC)",IF(OR(G_F_Informalidad[Cod_Informalidad] = "For_Salud_0", G_F_Informalidad[Cod_Informalidad] = "Inf_Salud_1"), "Enfoque Afiliación a Seguridad Social", IF(OR(G_F_Informalidad[Cod_Informalidad] = "For_SS_0", G_F_Informalidad[Cod_Informalidad] = "Inf_SS_1"),"Enfoque Cotización a Pensiones")))
+
+
 
 *------ Formulas usadas para el caculo de los indicadores -------*
 
