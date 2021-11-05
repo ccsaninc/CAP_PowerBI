@@ -29,6 +29,8 @@ POB_Infor_Ind =
     return
     if( [POB_Infor_Varabs]>0, Verde, if( [POB_Infor_Varabs]=0, Neutro, Rojo))
 
+*----------------    
+
 POB_Infor_Ind_Color = if ( [POB_Infor_Varabs]>0.01, 1,IF([POB_Infor_Varabs]=0, 0,-1))
 
 *------
